@@ -22,7 +22,7 @@
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     button.layer.cornerRadius = 5.0f;
     button.layer.masksToBounds = YES;
-    [button gp_setBackgroundColor:[UIColor blueColor] state:UIControlStateNormal];
+    [button gp_setBackgroundColor:[UIColor purpleColor] state:UIControlStateNormal];
     [button gp_setBackgroundColor:[UIColor orangeColor] state:UIControlStateHighlighted];
     [self.view addSubview:button];
 }
